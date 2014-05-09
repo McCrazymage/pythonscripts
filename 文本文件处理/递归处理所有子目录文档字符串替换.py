@@ -1,5 +1,6 @@
+ï»¿#encoding=utf8
 import os
-##°ÑËùÓĞaaaÌæ»»³Ébbb
+##æŠŠæ‰€æœ‰aaaæ›¿æ¢æˆbbb
 for root, dirs, files in os.walk("."):
     for file in files:
         if file.endswith(".txt"):
