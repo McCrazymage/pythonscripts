@@ -22,7 +22,7 @@ for (dirpath, dirnames, filenames) in os.walk(path):
                 text_file = open(filepath, "r")
                 lines = text_file.readlines()
                 text_file.close()
-                output  = open(filepath,'w',encoding= 'utf-8')
+                output  = open(filepath,'w')
                 for line in lines:
                     #print(line)
                     if not line:
