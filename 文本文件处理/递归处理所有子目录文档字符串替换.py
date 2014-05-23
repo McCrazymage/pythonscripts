@@ -1,4 +1,4 @@
-﻿#encoding=utf8
+﻿#encoding=utf-8
 import os
 ##把所有aaa替换成bbb
 for root, dirs, files in os.walk("."):
